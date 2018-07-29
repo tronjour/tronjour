@@ -14,8 +14,12 @@
     transform: translate(-50%, -50%);
 }
 body {
-    background-color: #F37021;
-    background-image: url("rsz_1hermes-texture(1).jpg")
+    background-color: #f26100;
+    background-image: url("hermes-texture.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #logo {
@@ -41,7 +45,7 @@ body {
 
 #password {
     background-color: inherit;
-    border-bottom: solid;
+    border-bottom: solid 2px;
     border-top: none;
     border-left: none;
     border-right: none;
