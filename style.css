@@ -1,0 +1,73 @@
+.box {
+    border-style: solid;
+    border-color: #412927;
+    border-width: 15px;
+    background-image: url("rsz_hermes-texture.jpg");
+    
+}
+.box {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: #F37021;
+    background-image: url("rsz_1hermes-texture(1).jpg")
+}
+
+#logo {
+  width: 240px;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#password {
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+}
+.fa-lock {
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+}
+
+#password {
+    background-color: inherit;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.orangebutton {
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: inherit;
+    border: none
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
