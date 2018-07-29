@@ -2,7 +2,11 @@
     border-style: solid;
     border-color: #412927;
     border-width: 15px;
-    background-image: url("rsz_hermes-texture.jpg");
+    background-image: url("hermes-texture.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
 }
 .box {
@@ -20,6 +24,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #logo {
