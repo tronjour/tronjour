@@ -75,3 +75,39 @@ body {
  :-ms-input-placeholder {  
     text-align: center; 
  }
+
+
+/* 
+ Media Queries */
+
+ @media screen and (max-width: 420px) {
+    .box {
+      height: 350px;
+      width: 350px; 
+    }
+    #logo {
+        width: 150px;
+    }
+    .fa-lock {
+        top: 60%;
+        left: 25%;
+        position: absolute;
+        transform: translate(-50%, -50%); 
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .box {
+      height: 350px;
+      width: 350px; 
+    }
+    #logo {
+        width: 150px;
+    }
+    .fa-lock {
+        top: 60%;
+        left: 25%;
+        position: absolute;
+        transform: translate(-50%, -50%); 
+    }
+  }
